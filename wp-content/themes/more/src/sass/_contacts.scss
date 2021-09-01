@@ -1,0 +1,41 @@
+section.contacts{
+  background-image: url("/wp-content/uploads/2021/02/bg_cont.jpg");
+  background-repeat: repeat;
+  padding: 100px 0;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  P{
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  form{
+    margin-bottom: 20px;
+    p{
+      margin-bottom: 0;
+    }
+    label{
+      color: #959595;
+      font-size: 15px;
+      line-height: 1.2;
+      span input, span textarea{
+        background: #FFFFFF;
+        border: 2px solid #008DD2;
+        box-sizing: border-box;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding: 7px;
+      }
+    }
+    input[type="submit"]{
+      background: #008DD2;
+      border: 2px solid #008DD2;
+      box-sizing: border-box;
+      box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+      border-radius: 10px;
+      font-size: 18px;
+      line-height: 21px;
+      padding: 10px 60px;
+      color: #fff;
+    }
+  }
+}

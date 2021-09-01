@@ -1,0 +1,26 @@
+/****Shortcode for Orange Wave****/
+
+.orange-wave{
+  height: 106px;
+  background-image: url("../../../../uploads/2021/01/fon1.png");
+  background-size: contain;
+  background-position: left center;
+  position: relative;
+  margin-top: -20px;
+  z-index: 1;
+  background-repeat-y: no-repeat;
+  h2{
+    font-size: 36px;
+    line-height: 106px;
+    color: #FFFFFF;
+  }
+}
+
+@media (max-width: 575px) {
+  .orange-wave {
+    margin-top: 0;
+    h2{
+      font-size: 24px;
+    }
+  }
+}
